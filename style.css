@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#add-task-form {
+  margin-top: 20px;
+}
+
+#task-input {
+  width: 50%;
+  height: 30px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#add-task-btn {
+  width: 20%;
+  height: 30px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#task-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#task-list li:hover {
+  background-color: #f0f0f0;
+}
+
